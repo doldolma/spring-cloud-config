@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/testdb?useUnicode=true&serverTimezone=Asia/Seoul
     username: root
-    password: 123123
+    password: '{cipher}74dd65389d40114c9e36be09b5a4cf8d017aa8dd6dc4a4c6564475ac6ebdf551'
 
 token:
   expiration_time: 86400000
