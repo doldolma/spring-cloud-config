@@ -11,8 +11,3 @@ token:
 
 gateway:
   ip: 172.30.1.18
-
-order_service:
-  url: http://order-service/%s/orders
-  exception:
-  order_is_empty: User's order is empty
